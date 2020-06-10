@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/splash"
+    tools:context=".SplashActivity">
+
+    <ImageView
+        android:id="@+id/ImageView"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:src="@drawable/splash_icon"
+        android:layout_centerInParent="true"
+        android:layout_below="@+id/textview1"/>
+
+    <TextView
+        android:id="@+id/textview1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Flying Fish"
+        android:textSize="90dp"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:textColor="#FFEB3B"
+        android:layout_marginTop="70dp"/>
+
+</RelativeLayout>
