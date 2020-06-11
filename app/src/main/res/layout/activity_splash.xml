@@ -4,26 +4,42 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/splash"
     tools:context=".SplashActivity">
-
-    <ImageView
-        android:id="@+id/ImageView"
-        android:layout_width="300dp"
-        android:layout_height="300dp"
-        android:src="@drawable/splash_icon"
-        android:layout_centerInParent="true"
-        android:layout_below="@+id/textview1"/>
 
     <TextView
         android:id="@+id/textview1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="66dp"
+        android:layout_marginEnd="-5dp"
         android:text="Flying Fish"
-        android:textSize="90dp"
-        android:textStyle="bold"
         android:textAlignment="center"
         android:textColor="#FFEB3B"
-        android:layout_marginTop="70dp"/>
+        android:textSize="60dp"
+        android:textStyle="bold|italic" />
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/fishsplash"
+        android:layout_width="293dp"
+        android:layout_height="332dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="149dp"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"
+        app:lottie_rawRes="@raw/fishm" />
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:layout_width="300dp"
+        android:layout_height="150dp"
+        android:layout_below="@+id/fishsplash"
+        android:layout_centerInParent="true"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"
+        app:lottie_rawRes="@raw/loading" />
 
 </RelativeLayout>
