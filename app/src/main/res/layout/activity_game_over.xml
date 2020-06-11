@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GameOverActivity"
+    android:background="@drawable/splash">
+
+
+    <TextView
+        android:id="@+id/gameOver"
+        android:layout_width="283dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="70dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginEnd="58dp"
+        android:text="GAME OVER"
+        android:textAlignment="center"
+        android:textColor="#E40900"
+        android:textSize="50sp"
+        android:textStyle="bold|italic"/>
+
+    <Button
+        android:id="@+id/play_again_btn"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/gameOver"
+        android:layout_centerHorizontal="true"
+        android:text="Play Again"
+        android:textAllCaps="false"
+        android:textColor="#3F51B5"
+        android:textSize="20sp"
+        android:background="#FFEB3B"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/displayScore"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="242dp"
+        android:text="Score"
+        android:textAlignment="center"
+        android:textSize="30sp"/>
+
+</RelativeLayout>
