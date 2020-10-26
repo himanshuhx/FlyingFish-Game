@@ -20,8 +20,8 @@ Screen With `Play Again` Button.
 
 ## Screenshots
 <img src="https://user-images.githubusercontent.com/65825310/97192887-63343600-17ce-11eb-9b7a-f84b92041f1d.jpg"
- width="300" height="550"/> <img src="https://user-images.githubusercontent.com/65825310/97192780-439d0d80-17ce-11eb-8407-8e84b18df1ef.jpg"
- width="300" height="550"/><img src="https://user-images.githubusercontent.com/65825310/97193203-c1f9af80-17ce-11eb-9fbc-938b54aca556.jpg"
+ width="300" height="550"/>  <img src="https://user-images.githubusercontent.com/65825310/97192780-439d0d80-17ce-11eb-8407-8e84b18df1ef.jpg"
+ width="300" height="550"/>  <img src="https://user-images.githubusercontent.com/65825310/97193203-c1f9af80-17ce-11eb-9fbc-938b54aca556.jpg"
  width="300" height="550"/>
  
  ## Extra Dependencies 
