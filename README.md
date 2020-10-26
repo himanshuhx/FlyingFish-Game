@@ -19,9 +19,9 @@ When all Three lives are over, Player is directed to Game Over
 Screen With `Play Again` Button.
 
 ## Screenshots
-<img src="https://user-images.githubusercontent.com/65825310/84465709-58508d00-ac95-11ea-8f81-ee3ffc074aad.png"
- width="300" height="550"/>                                                              <img src="https://user-images.githubusercontent.com/65825310/84466718-a797bd00-ac97-11ea-8b6d-6361c61199a2.png"
- width="300" height="550"/>                                                              <img src="https://user-images.githubusercontent.com/65825310/84466519-2e986580-ac97-11ea-8d74-ba01410e24a8.png"
+<img src="https://user-images.githubusercontent.com/65825310/97192887-63343600-17ce-11eb-9b7a-f84b92041f1d.jpg"
+ width="300" height="550"/> <img src="https://user-images.githubusercontent.com/65825310/97192780-439d0d80-17ce-11eb-8407-8e84b18df1ef.jpg"
+ width="300" height="550"/><img src="https://user-images.githubusercontent.com/65825310/97193203-c1f9af80-17ce-11eb-9fbc-938b54aca556.jpg"
  width="300" height="550"/>
  
  ## Extra Dependencies 
